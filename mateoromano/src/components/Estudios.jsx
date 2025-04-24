@@ -2,7 +2,7 @@ import React from "react";
 import diploma from "/images/DIPLOMA.png";
 import certificado from "/images/certificado.png";
 
-import { principal, foto, tittle, next  } from "../Estilo/estudios.module.css";
+import { principal, foto, tittle, next  } from "../Estilos/estudios.module.css";
 
 const Estudios = () => {
   const handleClick = (event) => {
