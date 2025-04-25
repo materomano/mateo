@@ -65,16 +65,21 @@
   
   
   @media (max-width: 600px) {
-    .principal {
-      display: flex;
-      flex-direction: column;
-      width: 90%;
-      height: 100vh; /* Usa el 100% del alto de la ventana para centrar */
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto; /* Centra horizontalmente */
-      padding: 20px;
-    }
+   
+      .principal {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        min-height: 100vh;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 20px;
+        overflow: hidden;
+      }
+    
+    
   
     .main {
       flex-direction: column; /* Cambia el layout a columna */

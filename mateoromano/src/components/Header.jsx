@@ -23,7 +23,7 @@ const Header = () => {
             <a onClick={() => scrollToSection('#portada')}>Inicio</a>
           </li>
           <li>
-            <a onClick={() => scrollToSection('#sobre-mi')}>Sobre Mi</a>
+            <a onClick={() => scrollToSection('#sobremi')}>Sobre Mi</a>
           </li>
           <li>
             <a onClick={() => scrollToSection('#proyectos')}>Proyectos</a>

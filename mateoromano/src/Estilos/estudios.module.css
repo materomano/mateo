@@ -112,12 +112,12 @@ div::before {
   @media (max-width: 600px) {
     .principal{
         flex-direction: column; 
-        width: 100%;
+        width: 80%;
         font-size: 14px;
     }
     .next{
       flex-direction: column; 
-      width: 100%;
+      width: 80%;
       font-size: 14px;
   }
   }
