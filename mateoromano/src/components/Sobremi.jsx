@@ -33,14 +33,7 @@ const Sobremi = () => {
         setIndex(index + 1);
       }, 100); // Cada palabra aparece después de 300ms, puedes ajustar este tiempo
       return () => clearTimeout(timer);
-    } else {
-      // Reinicia la animación después de mostrar todas las palabras
-      const restartTimer = setTimeout(() => {
-        setText('');  // Vacía el texto
-        setIndex(0);  // Reinicia el índice
-      }, 3000); 
-      return () => clearTimeout(restartTimer);
-    }
+    } 
 
   }, [index, palabras]);
 

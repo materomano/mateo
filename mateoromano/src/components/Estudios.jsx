@@ -35,7 +35,7 @@ const Estudios = () => {
       <div className={next} onClick={handleClock} >
         <div>
           <h1>CODER HOUSE</h1>
-          <h3>JULIO 2022 -- ABRIL 2024</h3>
+          <h3>JULIO 2024 -- SEPTIEMBRE 2024</h3>
         </div>
         <div className={foto}>
           <img src={certificado} alt="imagen" />
