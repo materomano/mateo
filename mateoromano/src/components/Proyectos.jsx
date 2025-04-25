@@ -1,5 +1,5 @@
 import React from 'react';
-import rental from '/images/rental.jpg'
+import rental from '/images/rentall.jpg'
 import petro from '/images/Petrobus.png'
 import { principal } from '../Estilos/proyectos.module.css';
 
