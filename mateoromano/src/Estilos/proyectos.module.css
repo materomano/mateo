@@ -7,8 +7,9 @@
     background-image: url("fondo.jpg");
     position: relative;
     padding: 20px;
-    flex-wrap: wrap; /* Permite que los elementos se reorganicen si es necesario en pantallas más pequeñas */
-  }
+    flex-wrap: wrap;
+     flex-direction: column;
+}
   
   h1 {
     width: 100%; /* Para que el h1 ocupe todo el ancho y esté arriba */
@@ -40,6 +41,7 @@
   .principal a {
     position: relative;
     display: inline-block;
+    width: 100%;
   }
   
   .principal a::after {
